@@ -29,14 +29,6 @@ nvidia-smi
 
 ```
 
-
-## Inference Examples
-Checkout [`inference_speech_editing.ipynb`](./inference_speech_editing.ipynb) and [`inference_tts.ipynb`](./inference_tts.ipynb)
-
-## Gradio
-### Run in colab
-
-
 ### How to use it
 1. (optionally) Select models
 2. Load models
