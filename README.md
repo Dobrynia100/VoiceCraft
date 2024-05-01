@@ -3,7 +3,8 @@
 ```bash
 
 # 1.Порт 443 должен быть открыт.
-# 2. Склонировать репозиторий
+
+# 2. Склонировать репозиторий (например так) или любым другим методом
 git clone git@github.com:jasonppy/VoiceCraft.git
 cd VoiceCraft
 
@@ -18,33 +19,32 @@ docker build --tag "voicecraft" .
 ./start-jupyter.sh  # linux
 start-jupyter.bat   # windows
 
-# 7. Посмотреть логи и ссылки для захода в Jupyter notebook можно либо в Контейнере Docker Desktop или введя команду
+# 6. Посмотреть логи и ссылки для входа в Jupyter notebook можно либо в Контейнере Docker Desktop или введя команду
 docker logs jupyter
 или http://127.0.0.1:8888/lab
 
-# 8. Проверка обнаружения видеокарты
+# 7. Проверка обнаружения видеокарты в консоли
 nvidia-smi
 
-# 9. Теперь в браузере inference_tts.ipynb 
+# 8. Теперь в браузере запустить inference_tts.ipynb 
 
 ```
 
-### How to use it
-1. (optionally) Select models
-2. Load models
-3. Transcribe
-4. (optionally) Tweak some parameters
-5. Run
+### Как использовать
+1. (Опционально) Выбрать модель
+2. Загрузить модель
+3. Транскрипция аудио
+4. (Опционально) поменять параметры
+5. Запуск
 6. (optionally) Rerun part-by-part in Long TTS mode
 
-### Some features
-Smart transcript: write only what you want to generate
+### Некоторые особенности
+Транскрипция только того что нужно сгенерировать
 
-TTS mode: Zero-shot TTS
+Текст в речь
 
-Edit mode: Speech editing
+Режим редактирования речи
 
-Long TTS mode: Easy TTS on long texts
 
 
 
