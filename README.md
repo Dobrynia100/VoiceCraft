@@ -12,8 +12,8 @@ cd VoiceCraft (или ваше название папки репозитори�
 # https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.13.5/install-guide.html
 # sudo apt-get install -y nvidia-container-toolkit-base || yay -Syu nvidia-container-toolkit || echo etc...
 
-# 4. Собрать картинку
-docker build --tag "voicecraft" .
+# 4. Собрать картинку (c . в конце, ЭТО ВАЖНО !!!)
+docker build --tag "voicecraft" . 
 
 # 5. Запуск через существующий файл или docker start /jupyter
 ./start-jupyter.sh  # linux
