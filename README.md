@@ -23,7 +23,7 @@ start-jupyter.bat   # windows
 docker logs jupyter
 или http://127.0.0.1:8888/lab
 
-# 7. Проверка обнаружения видеокарты в консоли
+# 7. Проверка обнаружения видеокарты в консоли (не обязательно)
 nvidia-smi
 
 # 8. Теперь в браузере запустить inference_tts.ipynb 
