@@ -6,7 +6,7 @@
 
 # 2. Склонировать репозиторий (например так) или любым другим методом
 git clone git@github.com:jasonppy/VoiceCraft.git
-cd VoiceCraft
+cd VoiceCraft (или ваше название папки репозитория)
 
 # 3. Предполагается что у вас докер с nvidia container container-toolkit (В windows он по умолчанию)
 # https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.13.5/install-guide.html
