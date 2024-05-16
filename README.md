@@ -1,4 +1,7 @@
+## VoiceCraft: Zero-Shot Speech Editing and Text-to-Speech in the Wild
+VoiceCraft is a token infilling neural codec language model, that achieves state-of-the-art performance on both speech editing and zero-shot text-to-speech (TTS) on in-the-wild data including audiobooks, internet videos, and podcasts.
 
+To clone or edit an unseen voice, VoiceCraft needs only a few seconds of reference.
 ## QuickStart Docker
 ```bash
 
@@ -26,7 +29,7 @@ docker logs jupyter
 # 7. Проверка обнаружения видеокарты в консоли (не обязательно)
 nvidia-smi
 
-# 8. Теперь в браузере запустить inference_tts.ipynb (Внутри будет скачиваться сама модель)
+# 8. Теперь в браузере запустить inference_tts.ipynb, не забудте поменять ядро на voicecraft (Также внутри будет скачиваться сама модель)
 
 ```
 
