@@ -33,7 +33,7 @@ nvidia-smi
 
 # 8. Теперь в юпитере запустить inference_tts.ipynb, не забудте поменять ядро на voicecraft (Также внутри будет скачиваться сама модель)
 
-# 9. Скачайте generated аудио файл, запустите test_audio.py
+# 9. Скачайте generated аудио файл, запустите test_audio.py или test_audio.ipynb
 
 ```
 
