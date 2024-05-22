@@ -21,7 +21,8 @@ docker build --tag "voicecraft" .
 # 5. Запуск через существующий файл 
 ./start-jupyter.sh  # linux
 start-jupyter.bat   # windows
-или docker start /jupyter
+start-jupyter_cpu.bat   # для запуска контейнера на cpu
+или docker start /jupyter # для уже существующего контейнера
 
 # 6. Посмотреть логи и ссылки для входа в Jupyter notebook можно либо в Контейнере Docker Desktop или введя команду
 docker logs jupyter
